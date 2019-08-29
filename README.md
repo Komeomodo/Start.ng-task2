@@ -1,5 +1,3 @@
-## Start.ng task 2
+## Start.ng task 3
 
-https://twitter.com/KomeOmodo/status/1165165668993572865?s=19
-
-https://lucid.blog/komeomodo/post/1566603313
+LUCID: https://lucid.blog/komeomodo/post/resume-in-html-and-css-3d4
