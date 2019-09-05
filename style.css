@@ -1,10 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     font-family:arial, helvetica, sans-serif;
     font-size:15px;
     line-height:1.5;
     padding:0;
     margin:0;
-    
 }
 
 .container{
@@ -63,5 +66,71 @@ body{
 
 .box{
     float: right;
+}
+
+.container_1{
+    background: #f4f4f4;
+    height: 100%;
+    padding: 30px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.form{
+    width: 500px;
+    height: 100%;
+    background: white;
+    box-shadow: 0 2px 10px #999;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+} 
+
+.form .contact-me{
+	background: #43D1AF;
+	padding: 20px 0;
+	font-size: 140%;
+	font-weight: 300;
+	text-align: center;
+    color: #fff;
+    margin: 0;
+    width: 100%;
+}
+.form form{
+    padding: 10px;
+    width: 100%;
+}
+
+.form form input, textarea{
+    width: 100%;
+    margin: 10px auto;
+    padding: 10px 10px 10px 40px;
+    border: 1px solid #43D1AF;
+    outline: none;
+    border-radius: 5px;
+}
+
+.form form textarea{
+    font-size: 20px;
+}
+
+.button button{
+    display: block;
+    padding: 10px 30px;
+    outline: none;
+    background: #43D1AF;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    margin: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .form {
+        width: 450px;
+    }
 }
 
